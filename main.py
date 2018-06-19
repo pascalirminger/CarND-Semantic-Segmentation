@@ -130,7 +130,6 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
     sess.run(tf.global_variables_initializer())
 
     print('Starting training... for {} epochs.'.format(epochs))
-    print()
     # Do training
     for epoch in range(epochs):
         print('Epoch: {}'.format(epoch + 1))
@@ -141,8 +140,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
                 keep_prob: 0.5,
                 learning_rate: 0.00001
             })
-            print('Epoch: {}, loss: {}'.format(epoch + 1, loss))
-            print()
+        print('Epoch: {}, loss: {}'.format(epoch + 1, loss))
     print('Training finished.')
 
 tests.test_train_nn(train_nn)
