@@ -25,9 +25,72 @@ After the network is defined the ```optimize()``` method creates the optimizer a
 
 Finally, the network is trained using the ```train_nn()``` method ([main.py, lines 114-144](./main.py#L114-L144)) with a keep probability of 0.5 and a learning rate of 0.00001. During training log messages describe the behaviour of the loss value.
 
+## Training
+
+The network has been trained using the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) (289 images) from [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/advanced_deep_learning/data_road.zip). The network training has been run for 6, 12, 24, and 48 epochs using a batch size of 8. The following table 
+
+| Number of epochs | Loss of last epoch |
+|:----------------:|:------------------:|
+| 6 epochs         | 0.374891           |
+| 12 epochs        | 0.123707           |
+| 24 epochs        | 0.094930           |
+| 48 epochs        | 0.050753           |
+
 ## Sample images
 
-**TODO**
+### urban unmarked lanes #41 (uu_000041.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![uu_000041](images/KP5-LR00001-8B-06E/uu_000041.png)   |
+| 12 epochs | ![uu_000041](images/KP5-LR00001-8B-12E/uu_000041.png)   |
+| 24 epochs | ![uu_000041](images/KP5-LR00001-8B-24E/uu_000041.png)   |
+| 48 epochs | ![uu_000041](images/KP5-LR00001-8B-48E/uu_000041.png)   |
+
+### urban unmarked lanes #81 (uu_000081.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![uu_000081](images/KP5-LR00001-8B-06E/uu_000081.png)   |
+| 12 epochs | ![uu_000081](images/KP5-LR00001-8B-12E/uu_000081.png)   |
+| 24 epochs | ![uu_000081](images/KP5-LR00001-8B-24E/uu_000081.png)   |
+| 48 epochs | ![uu_000081](images/KP5-LR00001-8B-48E/uu_000081.png)   |
+
+### urban marked lanes #37 (um_000037.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![um_000037](images/KP5-LR00001-8B-06E/um_000037.png)   |
+| 12 epochs | ![um_000037](images/KP5-LR00001-8B-12E/um_000037.png)   |
+| 24 epochs | ![um_000037](images/KP5-LR00001-8B-24E/um_000037.png)   |
+| 48 epochs | ![um_000037](images/KP5-LR00001-8B-48E/um_000037.png)   |
+
+### urban marked lanes #79 (um_000079.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![um_000079](images/KP5-LR00001-8B-06E/um_000079.png)   |
+| 12 epochs | ![um_000079](images/KP5-LR00001-8B-12E/um_000079.png)   |
+| 24 epochs | ![um_000079](images/KP5-LR00001-8B-24E/um_000079.png)   |
+| 48 epochs | ![um_000079](images/KP5-LR00001-8B-48E/um_000079.png)   |
+
+### urban multiple marked lanes #14 (umm_000014.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![umm_000014](images/KP5-LR00001-8B-06E/umm_000014.png) |
+| 12 epochs | ![umm_000014](images/KP5-LR00001-8B-12E/umm_000014.png) |
+| 24 epochs | ![umm_000014](images/KP5-LR00001-8B-24E/umm_000014.png) |
+| 48 epochs | ![umm_000014](images/KP5-LR00001-8B-48E/umm_000014.png) |
+
+### urban multiple marked lanes #37 (umm_000037.png)
+
+|           |                                                         |
+|----------:|:-------------------------------------------------------:|
+| 6 epochs  | ![umm_000040](images/KP5-LR00001-8B-06E/umm_000040.png) |
+| 12 epochs | ![umm_000040](images/KP5-LR00001-8B-12E/umm_000040.png) |
+| 24 epochs | ![umm_000040](images/KP5-LR00001-8B-24E/umm_000040.png) |
+| 48 epochs | ![umm_000040](images/KP5-LR00001-8B-48E/umm_000040.png) |
 
 *The description below is Udacity's original README from the [seed project](https://github.com/udacity/CarND-Semantic-Segmentation).*
 
