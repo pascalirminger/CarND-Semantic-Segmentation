@@ -40,6 +40,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban unmarked lanes #41 (uu_000041.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![uu_000041](images/KP5-LR00001-8B-06E/uu_000041.png)   |
 | 12 epochs | ![uu_000041](images/KP5-LR00001-8B-12E/uu_000041.png)   |
@@ -48,6 +49,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban unmarked lanes #81 (uu_000081.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![uu_000081](images/KP5-LR00001-8B-06E/uu_000081.png)   |
 | 12 epochs | ![uu_000081](images/KP5-LR00001-8B-12E/uu_000081.png)   |
@@ -56,6 +58,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban marked lanes #37 (um_000037.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![um_000037](images/KP5-LR00001-8B-06E/um_000037.png)   |
 | 12 epochs | ![um_000037](images/KP5-LR00001-8B-12E/um_000037.png)   |
@@ -64,6 +67,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban marked lanes #79 (um_000079.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![um_000079](images/KP5-LR00001-8B-06E/um_000079.png)   |
 | 12 epochs | ![um_000079](images/KP5-LR00001-8B-12E/um_000079.png)   |
@@ -72,6 +76,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban multiple marked lanes #14 (umm_000014.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![umm_000014](images/KP5-LR00001-8B-06E/umm_000014.png) |
 | 12 epochs | ![umm_000014](images/KP5-LR00001-8B-12E/umm_000014.png) |
@@ -80,6 +85,7 @@ The network has been trained using the [Kitti Road dataset](http://www.cvlibs.ne
 
 ### urban multiple marked lanes #37 (umm_000037.png)
 
+|           |                                                         |
 |----------:|:-------------------------------------------------------:|
 | 6 epochs  | ![umm_000040](images/KP5-LR00001-8B-06E/umm_000040.png) |
 | 12 epochs | ![umm_000040](images/KP5-LR00001-8B-12E/umm_000040.png) |
