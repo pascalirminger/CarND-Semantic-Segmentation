@@ -2,6 +2,8 @@
 
 **Udacity Self-Driving Car Engineer Nanodegree Program – Term 3, Project 2: Semantic Segmentation**
 
+![animated](images/animated.gif)
+
 This repository contains the code written to complete the second project in term 3 of the [Udacity Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013). This project uses semantic segmentation to label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
 ## Code description
